@@ -1,0 +1,679 @@
+
+	body 
+	{
+		margin:0;
+		padding: 0;
+		background:linear-gradient(  rgba(0, 0, 0, 0.438) 30%,rgba(255, 255, 255, 0.096) 100%);
+		font-size: 20px;
+		position: relative; 
+		scroll-behavior: smooth;
+		
+	}
+	/* start navbar */
+	 
+	 #title 
+	{
+		color:#0a0a0a;
+		font-size: 4.3em;
+		font-weight:700 ;
+		margin:0;
+		padding: 0;	
+		padding-left: 0.1em;
+		z-index: 1000;
+		position:fixed;
+		right:0;
+		top:0.3em;
+		text-align: left;
+		font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+		Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", 
+		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+		width: 100%;
+	}
+	.position #title
+	{
+		text-align: right;
+		top: 0.2em;
+	}
+
+	#navbar #links
+	{
+		min-height:85vh;
+		width: 18%;
+		border: 1px solid black;
+		position:fixed;
+		left:0;
+		top: 2em;
+		z-index: 999;
+		margin-top:4.5em;
+		margin-left: 0.2em;
+	}
+	.position #navbar #links
+	{
+		right: 0;
+		left:inherit;
+		margin-right: 0.2em;
+	}
+	 
+	#main-list
+	{
+		list-style: circle ;
+		padding-left: 0.2em;
+	}
+	.position #main-list
+	{
+		padding-right: 0.2em;
+	}
+
+	.list-items
+	{
+		font-family: sans-serif;
+		padding: 0.5em;
+		padding-left: 0.25em;
+		padding-right: 0.75em;
+		font-size: 1em;
+		font-weight: 400;
+		text-align: left;
+		border: black 3px;
+		border-right-style: none ;
+		border-left-style: solid;
+		border-top-style: none;
+		border-bottom-style: none;
+		margin:0.25em;
+		margin-bottom: 0.7em;
+		overflow: auto;
+		
+	}
+	.position .list-items
+	{
+		text-align: right;
+		border-right-style: solid ;
+		border-left-style: none;
+		border-top-style: none;
+		border-bottom-style: none;
+		padding-left: 0.75em;
+		padding-right: 0.25em;
+		font-weight: 400;
+
+	}
+
+	.list-items a
+	{
+		text-decoration: none;
+		color: black;
+		transition: 0.7s ease;
+	}
+	
+	.list-items :hover
+	{
+		transform: scale(1.1);
+		font-size: 1.2em ;
+		font-weight: 500;
+	}
+	
+	
+	/* end navbar */
+	
+	/* start subjects */
+	
+	.subjects
+	{
+		width: 81%;
+		padding-top: 3.6em;
+		float: right;
+		position: relative;
+	}
+	.position .subjects
+	{
+		float: left;
+		text-align: right;
+	}
+
+	.subjects h2
+	{
+		color: black;
+		font-family:sans-serif ;
+		font-size:2em ;
+		padding-top: 0.25em;
+		font-weight: 800;
+		overflow: auto;	
+		display: inline-block;
+		padding-right: 0;
+	}
+
+	.clearfun
+	{
+		clear: both;
+	}
+
+	.imagewidth
+	{
+		width: 81%;
+	}
+
+	.images
+	{
+		height: 22.5em;
+		width: 32.5em;
+		height: 100%;
+		width: 65%;
+		margin-left: 30%;
+		transition: 0.7s ease;
+		cursor: pointer;
+	}
+
+	.images:hover{
+		transform: scale(1.1);
+	}
+	
+	.text 
+	{
+		display: inline-block;
+		color: #3b3b3b;
+		font-size:1.1em ;	
+		margin-top: -1em;
+		overflow: auto;
+	}
+
+	.text2
+	{
+		display: inline-block;
+		color: #3b3b3b;
+		font-size:1.1em ;
+		overflow: auto;
+	}
+
+	
+	.arabic
+        {
+            background:linear-gradient( #fffefe00 , #ffffff00 ) ;
+            position: absolute;
+            top: 3em;
+            right: 3.2em;
+            width: 50px;
+            height: 50px;
+            z-index: 1001;
+            transition: 0.5s ease;
+            border-radius: 10px;  
+			font-size: 1em;
+        }
+		
+        
+        .arabic:hover
+        {
+            transform: scale(1.1);
+	       
+        }
+		.english
+        {
+			top: 3em;
+            background:linear-gradient( #ffffff7a , #ffffff71 ) ;
+            position: absolute;
+         
+            right: 10px;
+            width: 50px;
+            height: 50px;
+            z-index: 1001;
+            transition: 0.5s ease;
+            border-radius: 10px;  
+			font-size: 1em;
+        }
+		
+        
+        .english:hover
+        {
+            transform: scale(1.1);
+	        
+        }
+
+
+
+
+
+		.position .arabic
+		{
+			left: 3.2em;
+			background:linear-gradient( #ffffff7a , #ffffff71 ) ;
+
+		}
+
+		.position .english
+		{
+			left: 10px;
+			background:linear-gradient( #fffefe00 , #ffffff00 ) ;	
+
+		}
+		
+		.navo {
+			background-color: rgb(0, 0, 0, 0.95);
+			width: 100%;
+			z-index: 1226;
+			position: sticky;
+			bottom: 10px;
+			top: 0;
+			padding: 17px 0px;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		   
+		}
+		.navo a{
+			text-decoration: none;
+			color: rgb(255, 255, 255);
+			font-size: 15px;
+			font-family: playfair display roman;
+		}
+	/* end subjecs */
+      /* star responsivetly */
+	@media screen and (max-width:1280px)
+	{
+		
+		 #title 
+		{
+			font-size: 4.4em;
+		}	
+		#navbar #links
+		{
+			margin-top: 4.2em;
+			width: 20%;
+		}
+		.subjects
+		{
+			width:79%;
+		}+
+		.list-items
+		{
+			font-size: 1em;
+		}
+		.text
+		{
+			margin-top: -2em;
+
+		}
+	}
+
+	@media screen and (max-width:1024px)
+	{
+		 #title 
+		{
+			font-size: 3.5em;
+		}	
+		#navbar #links
+		{
+			margin-top: 3.5em;
+			width: 20%;
+		}
+		.subjects
+		{
+			width:79%;
+			padding-top: 2.7em;
+		}
+		.list-items
+		{
+			font-size: 0.85em;
+		}
+	}
+	
+	@media screen and  (max-width:641px)
+	{
+			
+		body
+		{
+			font-size: 20px;
+		}
+	    #title 
+		{
+			text-align: center;
+			font-size: 5em;
+			position: static;
+		}
+		.position #title
+	{
+		text-align: center;
+	}
+		#navbar #links
+		{
+			width:100%;
+			position: relative;
+			margin-top: 0;
+			min-height: 70vh;
+		}
+		.list-items
+		{
+			font-size: 1.8em;
+
+		}
+		.subjects
+		{
+			width: 100%;
+
+		}
+		.subjects h2
+	    {
+		color: black;
+		font-family:sans-serif ;
+		font-size:1.8em ;
+		padding-top: 0.25em;
+		width: 100%;
+		padding-left: 0.3em;
+		text-align: center;
+	    }
+		.text
+		{
+			padding-left: 0.3em;
+			margin-top: -2em;
+			text-align: center;
+		}
+		.text2
+		{
+			padding-left: 0.3em;
+			text-align: center;
+		}
+		
+	     .images
+        {
+	    height: 22.5em;
+	    width: 32.5em;
+	    height: 100%;
+	    width: 90%;
+	    margin-left: 17.5%;
+	  
+	    }
+	}
+	
+	@media screen and (max-width:414px)
+	{
+		
+		body
+		{
+			font-size: 17px;
+		}
+		 #title 
+		{
+			text-align: left;
+			font-size: 5em;
+			position: static;
+			
+		}
+		.position #title
+	{
+		text-align: right;
+	}
+		#navbar #links
+		{
+			width:100%;
+			position: relative;
+			margin-top: 0;
+			min-height: 55vh;
+		}
+		.list-items
+		{
+			font-size: 1.8em;
+
+		}
+		.subjects
+		{
+			width: 100%;
+
+		}
+		.subjects h2
+	    {
+		color: black;
+		font-family:sans-serif ;
+		font-size:1.8em ;
+		padding-top: 0.25em;
+		width: 100%;
+		padding-left: 0.3em;
+		text-align: center;
+	    }
+		.text
+		{
+			padding-left: 0.3em;
+			margin-top: -2em;
+			text-align: center;
+		}
+		.text2
+		{
+			padding-left: 0.3em;
+			text-align: center;
+		}
+		
+	     .images
+        {
+	    height: 22.5em;
+	    width: 32.5em;
+	    height: 100%;
+	    width: 90%;
+	    margin-left: 17.5%;
+	  
+	    }
+
+		.arabic
+        {
+            top:1em;
+            right: 0;
+            width: 3em;
+            height: 3em;
+        }
+
+		.english
+        {
+            top:4em;
+            right: 0;
+			width: 3em;
+            height: 3em;
+        }
+
+		.position .arabic
+		{
+			top:1em;
+            left: 0;
+            width: 3em;
+            height: 3em;
+
+		}
+
+		.position .english
+		{
+			top:4em;
+            left: 0;
+			width: 3em;
+            height: 3em;
+		}
+	}
+	
+	@media screen and (max-width:375px)
+	{
+		body
+		{
+			font-size: 15px;
+		}
+		 #title 
+		{
+			text-align: left;
+			font-size: 5em;
+			position: static;
+			
+		}
+		#navbar #links
+		{
+			width:100%;
+			position: relative;
+			margin-top: 0;
+			min-height: 50vh;
+		}
+		.list-items
+		{
+			font-size: 1.8em;
+
+		}
+		.subjects
+		{
+			width: 100%;
+
+		}
+		.subjects h2
+	    {
+		color: black;
+		font-family:sans-serif ;
+		font-size:1.8em ;
+		padding-top: 0.25em;
+		width: 100%;
+		padding-left: 0.3em;
+		text-align: center;
+	    }
+		.text
+		{
+			padding-left: 0.3em;
+			margin-top: -2em;
+			text-align: center;
+		}
+		.text2
+		{
+			padding-left: 0.3em;
+			text-align: center;
+		}
+		
+	     .images
+        {
+	    height: 22.5em;
+	    width: 32.5em;
+	    height: 100%;
+	    width: 85%;
+	    margin-left: 20%;
+	  
+	    }
+
+		.arabic
+        {
+            top:1em;
+            right: 0;
+            width: 3em;
+            height: 3em;
+        }
+
+		.english
+        {
+            top:4em;
+            right: 0;
+			width: 3em;
+            height: 3em;
+        }
+
+		.position .arabic
+		{
+			top:1em;
+            left: 0;
+            width: 3em;
+            height: 3em;
+
+		}
+
+		.position .english
+		{
+			top:4em;
+            left: 0;
+			width: 3em;
+            height: 3em;
+		}
+	}
+	
+	@media screen and (max-width:280px)
+	{ 
+		body
+		{
+			font-size: 12px;
+		}
+		 #title 
+		{
+			text-align: left;
+			font-size: 5em;
+			position: static;
+			
+		}
+		#navbar #links
+		{
+			width:100%;
+			position: relative;
+			margin-top: 0;
+			min-height: 40vh;
+		}
+		.list-items
+		{
+			font-size: 1.8em;
+
+		}
+		.subjects
+		{
+			width: 100%;
+
+		}
+		.subjects h2
+	    {
+		color: black;
+		font-family:sans-serif ;
+		font-size:1.8em ;
+		padding-top: 0.25em;
+		width: 100%;
+		padding-left: 0.3em;
+		text-align: center;
+	    }
+		.text
+		{
+			padding-left: 0.3em;
+			margin-top: -2em;
+			text-align: center;
+
+		}
+		.text2
+		{
+			padding-left: 0.3em;
+			text-align: center;
+		}
+		
+	     .images
+        {
+	    height: 22.5em;
+	    width: 32.5em;
+	    height: 100%;
+	    width: 85%;
+	    margin-left: 20%;
+	  
+	    }
+
+		.arabic
+        {
+            top:1em;
+            right: 0;
+            width: 3em;
+            height: 3em;
+        }
+
+		.english
+        {
+            top:4em;
+            right: 0;
+			width: 3em;
+            height: 3em;
+        }
+
+		.position .arabic
+		{
+			top:1em;
+            left: 0;
+            width: 3em;
+            height: 3em;
+
+		}
+
+		.position .english
+		{
+			top:4em;
+            left: 0;
+			width: 3em;
+            height: 3em;
+		}
+		
+	}
+	
+
+ /* end responsivetly */

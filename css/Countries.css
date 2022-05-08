@@ -1,0 +1,148 @@
+
+.navo {
+    background-color: rgb(0, 0, 0, 0.95);
+    width: 100%;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    padding: 17px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 20px;
+}
+.navo a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: playfair display roman;
+}
+
+.footer{
+    background-color: #0b345a;
+    color: rgb(255, 255, 255);
+    padding:11px;
+    width: 100%;
+    margin-top: 250px;
+    margin-bottom: -20px;
+    margin-left: -15px;
+    margin-right: 20px;
+  }
+  .map
+  { margin-left: 100px;
+}
+
+.div_f1
+{
+    display: inline-block;
+    margin-right: 60px;
+    margin-left: 60px;
+    
+}
+
+.div_f2
+{
+    display: inline-block;
+}
+.Footer_title
+{
+    margin-left: 90px;
+}
+.div_f3
+{
+    display: inline-block;
+    margin-left: 300px;
+    
+}
+  body{
+    background-image: url('https://images.pexels.com/photos/3769146/pexels-photo-3769146.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+     background-repeat: no-repeat; 
+   background-attachment: fixed;
+   background-size: 100% 100%;  
+}   
+img{
+    width: 130px;
+    height: 110px;
+    border-radius: 3px;
+}
+.divum
+{   
+    
+    width: 850px;
+    height: 270px;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: wrap;
+    justify-content: space-around;
+    margin-bottom: 170px;
+    text-align: center;
+    
+}
+.divum div{
+    background-color: #0b345a;
+    color: rgb(255, 251, 20);
+    float: left;
+    width: 130px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+.divum2{
+    width: 850px;
+    height: 270px;  
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: wrap;
+    justify-content: space-around;
+    margin-bottom: 170px;
+}
+.divum2 div{
+    background-color: #0b345a;
+    color: rgb(255, 251, 20);
+    float: left;
+    width: 130px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+.content
+{
+    font-size: 20px;
+    font-family: inherit;
+} 
+.divum3
+{   
+    
+    width: 850px;
+    height: 270px;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: wrap;
+    justify-content: space-around;
+    margin-bottom: 170px;
+    text-align: center;
+    
+}
+.divum3 div{
+    background-color: #0b345a;
+    color: rgb(255, 251, 20);
+    float: left;
+    width: 130px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+.pp{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 251, 20);
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: 4px 4px #0b345a
+
+}

@@ -1,0 +1,163 @@
+*{ 
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+margin-top:0;
+}
+
+h1{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background:url('../media/WhatsApp\ Image\ 2022-05-06\ at\ 8.56.45\ PM.jpeg') no-repeat;
+    background-size: cover;
+    background-position:center ;
+    background-attachment: fixed;
+}
+.tth1{
+    font-size: 100px;
+    font-family: cursive;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    padding-left: 40%;
+margin-top:0;
+}
+
+body.dark {
+    background-color: #292C35;
+}
+body.dark .fpre {
+    color: #fff;
+
+}
+.checkbox {
+    opacity: 0;
+    position: absolute;
+}
+.checkbox:checked + .label .ball {
+    transform: translateX(24px);
+}
+.label{
+    background-color: #111;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 50px;
+    position: relative;
+    height: 26px;
+    width: 50px;
+    margin-left: 50%;
+    padding: 5px;
+}
+.ball {
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top:2px;
+    left: 2px;
+    height: 22px;
+    width: 22px;
+    transition: transform 0.2s linear;
+}
+.fa-moon{
+    color: #f1c40f;
+}
+.fa-sun{
+    color: #f1c40f;
+}
+.bdiv{
+    margin-right: 100%;
+    font-size: 30px;
+    width: 300px;
+    height: 250px;
+    background-color: white;
+}
+a:link{
+    text-decoration: none;
+    color: midnightblue;
+}
+a:hover{
+    font-size: 40px;
+    color: cadetblue;
+}
+
+.first{
+    font-size: 40px;
+}
+.fpre{
+    font-size: 25px;
+}
+table ,th,td{
+    border: 1px royalblue solid;
+    border-collapse: collapse;
+    font-size: 25px;
+    
+}
+th{
+    color: teal;
+}
+td{
+    color: darkslategrey;
+}
+.photodiv{
+    border: 1px midnightblue solid;
+    border-radius: 66px 66px 66px 66px;
+
+}
+img{
+    width: 400px;
+    height: 400px;
+}
+img:hover {
+    zoom: 130%; 
+    transition-duration: 5s;
+    cursor: crosshair;
+} 
+.mmm{
+    text-align: left;
+    font-size: 30px;    
+}
+.navo {
+    background-color: rgb(0, 0, 0, 0.95);
+    width: 100%;
+    z-index: 999;
+    position: sticky;
+    bottom: 10px;
+    top: 0;
+    padding: 17px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.navo a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: playfair display roman;
+}
+@media screen and (max-width:1023px){
+    .tth1{
+        font-size: 60px;
+    }
+    .bdiv{
+        font-size: 20px;
+    }
+    a{
+        font-size: 30px;
+    }
+    img{
+        display: block;
+        justify-content: space-between;
+        width: 300px;
+        height: 300px;
+    }
+    body{
+        background-color: lightseagreen;
+    }
+    .photodiv{
+        background-color: midnightblue;
+    }
+}

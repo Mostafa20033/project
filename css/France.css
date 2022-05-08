@@ -1,0 +1,74 @@
+.navo {
+    background-color: rgb(0, 0, 0, 0.95);
+    width: 100%;
+    z-index: 999;
+    position: sticky;
+    bottom: 10px;
+    top: 0;
+    padding: 17px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.navo a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: playfair display roman;
+}
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    padding: 2px 2px;
+}
+
+h1{
+    color: #1d1d61;
+    
+}
+.intro{
+    padding: 20px 10px 10px 10px;
+    margin: 20px 10px 10px 10px;
+}
+.paris{
+    padding: 10px;
+    margin: 10px;
+}
+.vidd{
+    padding: 10px 150px;
+    margin: 10px 150px;
+}
+.louv{
+    padding: 10px;
+    margin: 10px;
+}
+h4{
+    color: #1d1d61;
+}
+h3{
+    color: #1d1d61;
+}
+.uli{
+    padding: 40px 10px 10px 10px;
+    margin: 40px 10px 10px 10px;
+}
+.arc{
+    padding: 10px;
+    margin: 10px;
+}
+.orsay{
+    padding: 10px;
+    margin: 10px;
+}
+.garnier{
+    padding: 10px;
+    margin: 10px;
+}
+.button{
+    padding-left: 200px;
+    margin-left: 200px;
+}
+
+

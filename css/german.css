@@ -1,0 +1,66 @@
+body{ margin-top: 0; font-family: arial,sans-serif; }
+div {
+  background-color: lightyellow;
+  width: 500px;
+  border: 15px solid red;
+  padding: 50px;
+  margin: 20px;
+}
+div.relative {
+  position: relative;
+  left:100px;
+  top:10px;
+}
+.img {
+  float: right;
+  width:500px;
+  height:400px;
+}
+h3 { 
+  text-shadow : 2px 2px red ;
+  font-size:40px;
+}
+h2 {
+  font-size: 60px;
+  text-shadow: 3px 3px yellow;
+  text-align: center;
+}
+a:link {  
+  color:purple;
+}
+
+a:visited {  
+   color:red; 
+}
+
+a:hover {  
+  color:blue; 
+}
+
+a:active{  
+  color:green;
+}
+.navo {
+  background-color: rgb(0, 0, 0, 0.95);
+  width: 100%;
+  z-index: 999;
+  position: sticky;
+  bottom: 10px;
+  top: 0;
+  padding: 17px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
+  border: none;
+  padding: auto;
+  margin: auto;
+ 
+}
+.navo a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-family: playfair display roman;
+}

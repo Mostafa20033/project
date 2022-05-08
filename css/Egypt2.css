@@ -1,0 +1,149 @@
+.x{
+    height: 1000px;;
+    width:1500;
+    background-image: url("http://3.bp.blogspot.com/-W5PhfAZJim4/VorYNr9S9xI/AAAAAAAARho/yvGdI7LIlzU/s1600/3520952567_1bc57c9187_o.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color:black;
+    text-align: center;
+    font-size: 60px;
+    padding-left: 40%;
+    align-items: center;
+    border:5px black solid;
+}
+body{
+    background-color: blanchedalmond;
+
+}
+h1.name{
+    text-align: center;
+    color:blue;
+    font-size: 40px;
+}
+p.name{
+    color:purple;
+    font-size: 22px;
+    text-align: center;
+}
+h1.f{
+    text-align:center;
+    color:blueviolet;
+    font-size: 40px;
+}
+th{
+    font-size: 30px;
+}
+td{
+    font-size: 25px;
+    color:brown;
+
+}
+h1.m{
+    text-align:center;
+    color:black;
+    font-size: 40px;
+}
+p.m{
+    color:orangered;
+    font-size: 22px;
+
+}
+ol{
+    color:brown;
+    font-size: 25px;
+}
+.l{
+    color:red;
+    font-size: 30px;
+
+
+}
+.navo {
+    background-color: rgb(0, 0, 0, 0.95);
+    width: 100%;
+    z-index: 999;
+    position: sticky;
+    bottom: 10px;
+    top: 0;
+    padding: 17px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.navo a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: playfair display roman;
+}
+@media screen and (max-width:2560px)
+{
+
+}
+ 
+@media screen and (max-width:1920px)
+{
+
+}
+
+@media screen and (max-width:1846px)
+{
+
+}
+@media screen and (max-width:1680px)
+{
+
+}
+@media screen and (max-width:1440px)
+{
+
+}
+@media screen and (max-width:1280px)
+{
+
+}
+@media screen and (max-width:1080px)
+{
+
+}
+@media screen and (max-width:1024px)
+{
+
+}
+@media screen and (max-width:912px)
+{
+
+}
+@media screen and (max-width:820px)
+{
+
+}
+@media screen and (max-width:768px)
+{
+
+}
+@media screen and  (max-width:540px)
+{
+
+}
+@media screen and (max-width:425px)
+{
+
+}
+@media screen and (max-width:393px)
+{
+
+}
+@media screen and (max-width:375px)
+{
+
+}
+@media screen and (max-width:320px)
+{
+
+}
+@media screen and (max-width:280px){
+
+}

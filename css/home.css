@@ -1,0 +1,598 @@
+*{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: white;
+    width: 100%;
+    z-index: 999;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 180px;
+}
+.nn a{
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+}
+.logo{
+    width:30px;
+    height: 40px;
+}
+i{
+    color: rgb(0, 0, 0);
+}
+body{
+    background-image: url('https://images.pexels.com/photos/3769146/pexels-photo-3769146.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat; 
+  background-attachment: fixed;
+  background-size: 100% 100%;  
+}  
+ .color{
+    background-color: rgb(0, 0, 0, 0.85);
+    width: 100%;
+    height: 2670px;
+} 
+.navo {
+    background-color: rgb(0, 0, 0, 0.95);
+    width: 100%;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    padding: 17px 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -17px;
+}
+.navo a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: playfair display roman;
+}
+.nn p{
+    text-decoration: none;
+    color: rgb(146, 140, 140);
+    font-family: open sans;
+    margin-left: 40px;
+    font-weight: lighter;
+    font-size: 11px;
+    display: inline-block;
+}
+.about{
+    color: rgb(255, 255, 255);
+    position: relative;
+    right: 30px;
+    top: 100px;
+    padding-bottom:30px ;
+    text-align: center;
+    font-size: 35px;
+    font-family: playfair display roman;
+}
+.pl{
+    color: white;
+    font-family: open sans;
+    font-size: 14px;
+    text-align: center;
+}
+.pl{
+    color: white;
+    font-family: open sans;
+    font-size: 17px;
+    position: relative;
+    right: 35px;
+    top: 30px;
+}
+.bb{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: rgb(0, 0, 0);
+    font-family: open sans;
+    padding: 13px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.ser{
+    color: rgb(255, 255, 255);
+    position: relative;
+    right: 30px;
+    bottom: 250px;
+    padding-bottom:30px ;
+    text-align: center;
+    font-size: 35px;
+    font-family: playfair display roman;
+}
+.pl2{
+    color: white;
+    font-family: open sans;
+    text-align: center;
+    font-size: 17px;
+    position: relative;
+    right: 30px;
+    bottom: 270px;
+}
+video{
+  position: relative;
+  left: 430px;
+  bottom: 240px;
+  width: 460px;
+  height: 290px;
+}
+form input{
+    background-color: rgb(148, 142, 142);
+    color: white;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: none;
+    border-radius: 5000px;
+    font-family: open sans;
+    width: 280px;
+    position: relative;
+    bottom: 200px;
+    left: 400px;
+}
+form button{
+    background-color: rgb(148, 142, 142);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: none;
+    border-radius: 5000px;
+    font-family: open sans;
+    width: 280px;
+    position: relative;
+    bottom: 200px;
+    left: 400px;
+}
+ .sumbit{
+    position: relative;
+    left: 420px;
+    width: 480px;
+    background-color: #ffffff;
+}
+::placeholder{
+    color: rgb(255, 255, 255,0.82);
+}
+.footer{
+    background-color: rgb(0, 0, 0, 0.95);
+    color: rgb(255, 255, 255);
+    padding:11px;
+    width: 100%;
+    margin-top: 250px;
+    margin-right: 20px;
+  }
+ 
+  .map
+  { margin-left: 100px;
+}
+
+.div_f1
+{
+    display: inline-block;
+    margin-right: 60px;
+    margin-left: 60px;
+    
+}
+
+.div_f2
+{
+    display: inline-block;
+}
+.Footer_title
+{
+    margin-left: 90px;
+}
+.div_f3
+{
+    display: inline-block;
+    margin-left: 300px;
+    
+}
+.div_f3 ::placeholder
+{
+    color: #000000;
+}
+@media screen and (max-width:1920px)
+{
+    body{
+            
+        font-size: 23.5px;
+      }
+      .navo a{
+          font-size: 1em;
+          padding-left: 1.8em;
+      }
+      .navo{
+        margin-top: -32px;
+      }
+      .ser{
+          right: 0;
+         
+      }
+      .ser2{
+         padding-bottom: 0;
+         font-size: 2.2em;
+      }
+      .sumbit{
+          width: 20em;
+          left: 450px;
+          width: 500px;
+      }
+      .pl
+      {
+          right:0;
+      }
+      .about
+      {
+          right: 0;
+      }
+      .pl2{
+        left:   0px;
+      }
+      .map{
+          margin-left: 0;
+          width: 20%;
+      }
+      p iframe{
+          width: 100%;
+      }
+      .div_f3{
+          width: 100%;
+          margin-left: 0;
+      }
+      video{
+          width:32em;
+          left: 320px;
+      }
+      header{
+       padding: 0.5em 1em;
+      }
+      form input{
+        background-color: rgb(148, 142, 142);
+        color: white;
+        padding: 1em;
+        margin-bottom: 2em;
+        border: none;
+        border-radius: 5000px;
+        font-family: open sans;
+        width: 300px;
+        position: relative;
+        bottom: 200px;
+        left: 420px;
+    }
+      .footer{
+          margin-top: 2em;
+      }
+      section input{
+        padding: 1em;
+        margin-bottom: 2em;
+        border: none;
+        border-radius: 250em;
+        font-family: open sans;
+        width: 16em;
+        position: relative;
+        bottom: 12em;
+    }
+
+
+}
+
+@media screen and (max-width:1280px)
+    {
+           
+        body{
+            
+            font-size: 23.2px;
+          }
+          .navo a{
+              font-size: 1em;
+              padding-left: 1.8em;
+          }
+          .ser2{
+             padding-bottom: 0;
+             font-size: 2.2em;
+          }
+          .sumbit{
+              width: 20em;
+          }
+          .map{
+              margin-left: 0;
+              width: 100%;
+          }
+          p iframe{
+              width: 100%;
+          }
+          .div_f3{
+              width: 100%;
+              margin-left: 0;
+          }
+          video{
+              width:32em;
+          }
+          header{
+           padding: 0.5em 1em;
+          }
+          .footer{
+              margin-top: 7em;
+          }
+          section input{
+            padding: 1em;
+            margin-bottom: 2em;
+            border: none;
+            border-radius: 250em;
+            font-family: open sans;
+            width: 16em;
+            position: relative;
+            bottom: 12em;
+        }
+  
+    }
+    @media screen and (max-width:1024px)
+        {
+            
+            body{
+            
+                font-size: 20.2px;
+              }
+              .navo a{
+                  font-size: 1em;
+                  padding-left: 1.5em;
+              }
+              .ser2{
+                 padding-bottom: 2em;
+                 font-size: 2.2em;
+              }
+              .sumbit{
+                  width: 20em;
+              }
+              .map{
+                  margin-left: 0;
+                  width: 100%;
+              }
+              p iframe{
+                  width: 100%;
+              }
+              .div_f3{
+                  width: 100%;
+                  margin-left: 0;
+              }
+              video{
+                  width:28em;
+              }
+              header{
+               padding: 0.5em 1em;
+              }
+              .footer{
+                  margin-top: 7em;
+              }
+               
+         
+            
+       
+        }
+
+        @media screen and  (max-width:768px)
+        {
+            
+            body{
+            
+                font-size: 17.2px;
+              }
+              .navo a{
+                  font-size: 1em;
+                  padding-left: 0.7em;
+              }
+              .ser2{
+                 padding-bottom: 2em;
+                 font-size: 2.2em;
+              }
+              .sumbit{
+                  width: 20em;
+              }
+              .map{
+                  margin-left: 0;
+                  width: 100%;
+              }
+              p iframe{
+                  width: 100%;
+              }
+              .div_f3{
+                  width: 100%;
+                  margin-left: 0;
+              }
+              video{
+                  width:28em;
+              }
+              header{
+               padding: 0.5em 1em;
+              }
+              .footer{
+                  margin-top: 7em;
+              }
+               
+         
+            
+           
+     
+        }
+
+        @media screen and (max-width:414px)
+        {
+            body{
+            
+                font-size: 12.2px;
+              }
+              .navo a{
+                  font-size: 1em;
+                  padding-left: 0.7em;
+              }
+              .ser2{
+                 padding-bottom: 2em;
+                 font-size: 2.2em;
+              }
+              .sumbit{
+                  width: 20em;
+              }
+              .map{
+                  margin-left: 0;
+                  width: 100%;
+              }
+              p iframe{
+                  width: 100%;
+              }
+              .div_f3{
+                  width: 100%;
+                  margin-left: 0;
+              }
+              video{
+                  width:28em;
+              }
+              header{
+               padding: 0.5em 1em;
+              }
+              .footer{
+                  margin-top: 7em;
+              }
+               
+         
+            
+        }
+
+
+        @media screen and (max-width:375px)
+        {
+            body{
+            
+                font-size: 11.8px;
+              }
+              .navo a{
+                  font-size: 1em;
+                  padding-left: 0.7em;
+              }
+              .ser2{
+                 padding-bottom: 2em;
+                 font-size: 2.2em;
+              }
+              .sumbit{
+                  width: 20em;
+              }
+              .map{
+                  margin-left: 0;
+                  width: 100%;
+              }
+              p iframe{
+                  width: 100%;
+              }
+              .div_f3{
+                  width: 100%;
+                  margin-left: 0;
+              }
+              video{
+                  width:27em;
+              }
+              header{
+               padding: 0.5em 1em;
+              }
+              .footer{
+                  margin-top: 10em;
+              }
+               
+         
+            }
+    
+    
+            @media screen and (max-width:320px) {
+                
+               body{
+                font-size:11px;
+              }
+              .navo {
+                padding: 0.9em 11em;
+            }
+              .navo a{
+                  font-size: 1em;
+                  padding-left: 0.5em;
+              }
+              .ser2{
+                 padding-bottom: 5em;
+              }
+              .sumbit{
+                  width: 20em;
+              }
+              .map{
+                  margin-left: 0;
+                  width: 100%;
+              }
+              p iframe{
+                  width: 100%;
+              }
+              .pl{
+                  font-size: 0.8em;
+              }
+              .pl2{
+                  font-size: 0.8em;
+                  bottom: 31em;
+              }
+              .div_f3{
+                  width: 100%;
+                  margin-left: 0;
+              }
+              video{
+                  width:26em;
+              }
+              header{
+               padding: 0.5em 1em;
+              }
+              .footer{
+                  margin-top: 2em;
+              }
+                
+            }
+            @media screen and (max-width:280px)
+            {
+               body{
+                
+                 font-size: 9px;
+               }
+               .navo a{
+                   font-size: 1em;
+                   padding-left: 0.7em;
+               }
+               .ser2{
+                  padding-bottom: 5em;
+               }
+               .sumbit{
+                   width: 20em;
+               }
+               .map{
+                   margin-left: 0;
+                   width: 100%;
+               }
+               p iframe{
+                   width: 100%;
+               }
+               .div_f3{
+                   width: 100%;
+                   margin-left: 0;
+               }
+               video{
+                   width:26em;
+               }
+               header{
+                padding: 0.5em 1em;
+               }
+               .footer{
+                   margin-top: 8em;
+               }
+            }

@@ -1,0 +1,46 @@
+h1{
+    color: #227a22;
+}
+h2{
+    color: #dd1717;
+}
+h3{
+    color: #227a22;
+}
+.Up{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #dd1717;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.Up.show{
+    right: 10px;
+    
+}
+.navo {
+    background-color: rgb(0, 0, 0, 0.95);
+    width: 100%;
+    z-index: 999;
+    position: sticky;
+    bottom: 10px;
+    top: 0;
+    padding: 17px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.navo a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: playfair display roman;
+}
