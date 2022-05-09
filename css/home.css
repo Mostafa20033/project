@@ -36,7 +36,7 @@ body{
  .color{
     background-color: rgb(0, 0, 0, 0.85);
     width: 100%;
-    min-height: 2670px;
+    min-height: auto;
 } 
 .navo {
     background-color: rgb(0, 0, 0, 0.95);
