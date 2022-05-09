@@ -1,4 +1,7 @@
-
+body
+{
+    margin: 0;
+}
 .navo {
     background-color: rgb(0, 0, 0, 0.95);
     width: 100%;
@@ -145,4 +148,140 @@ img{
     font-family:'Times New Roman', Times, serif;
     text-shadow: 4px 4px #0b345a
 
+}
+@media screen  and (max-width:414px)
+{
+
+    .navo {
+        
+        padding: 12px 0px;
+      
+       
+        margin-right: 20px;
+    }
+    .navo a{
+       
+        font-size: 12px;
+        margin-right: 5px;
+       
+    }
+    .divum
+{   
+    
+    width: 250px;
+    height: 270px;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: wrap;
+    justify-content: space-around;
+    margin-bottom: 0;
+    text-align: center;
+    min-height: 100vh;
+    
+}
+.divum div{
+    background-color: #0b345a;
+    color: rgb(255, 251, 20);
+    float: left;
+    width: 130px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.divum2{
+     
+    width: 250px;
+    height: 270px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: wrap;
+    justify-content: space-around;
+    margin-bottom: 0;
+    min-height: 100vh;
+}
+.divum2 div{
+    background-color: #0b345a;
+    color: rgb(255, 251, 20);
+    float: left;
+    width: 130px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.content
+{
+    font-size: 20px;
+    font-family: inherit;
+} 
+.divum3
+{   
+    
+     
+    width: 250px;
+    height: 270px;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: wrap;
+    justify-content: space-around;
+    margin-bottom: 0;
+    text-align: center;
+    min-height: 100vh;
+    
+}
+.divum3 div{
+    background-color: #0b345a;
+    color: rgb(255, 251, 20);
+    float: left;
+    width: 130px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.footer{
+    background-color: #0b345a;
+    color: rgb(255, 255, 255);
+    padding-top:11px;
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .map
+  {
+      margin-left: 10px;
+      margin-bottom: 0;
+
+  }
+  .div_f1
+{
+    display: inline-block;
+    margin-right: 0;
+    margin-left: -10px;
+    
+}
+
+.Footer_title
+{
+    margin-left: 10px;
+}
+.div_f3
+{
+    display: inline-block;
+    margin-left: 10px;
+    
+}
+    
 }
