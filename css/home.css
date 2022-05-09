@@ -425,7 +425,7 @@ form button{
               }
               video{
                   width:60%;
-                  left: 17%;
+                  left: 18%;
               }
               header{
                padding: 0.5em 1em;
@@ -535,7 +535,8 @@ form button{
                   margin-left: 0;
               }
               video{
-                  width:28em;
+                  width:70%;
+                  left: 16%;
               }
               header{
                padding: 0.5em 1em;
@@ -543,10 +544,25 @@ form button{
               .footer{
                   margin-top: 7em;
               }
-               
-         
+              form input{
+                background-color: rgb(148, 142, 142);
+                color: white;
+                padding: 1em;
+                margin-bottom: 2em;
+                border: none;
+                border-radius: 5000px;
+                font-family: open sans;
+                width: 150px;
+                position: relative;
+                bottom: 200px;
+                left: 15%;
             
         }
+        .sumbit
+        {
+            left: 15%;
+        }
+    }
 
 
         @media screen and (max-width:375px)
