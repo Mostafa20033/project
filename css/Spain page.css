@@ -384,6 +384,11 @@ hr
                     margin-bottom: 0;
                     min-height: 32em;
                 }
+                .main-content .content-text h3
+                {
+                    font-size: 2em;
+                    font-weight:900;
+                }
                 .main-content img:hover{
                     height: 25em ;
                     width: 50%;
@@ -413,6 +418,7 @@ hr
                 margin-bottom: 0;
                 min-height: 32em;
             }
+            
             .main-content img:hover{
                 height: 25em ;
                 width: 50%;
@@ -870,7 +876,7 @@ hr
             }
             .main-content .content-text h3
             {
-                font-size: 1.7em;
+                font-size: 1.6em;
                 font-weight:900;
             }
             .main-content
@@ -956,7 +962,7 @@ hr
             }
             .main-content .content-text h3
             {
-                font-size: 1.7em;
+                font-size: 1.6em;
                 font-weight:900;
             }
             .main-content
@@ -1002,6 +1008,7 @@ hr
             }
             .button
             {
+                top: 6em;
                 height: 2.5em;
                 width: 2.5em;
             }
@@ -1042,7 +1049,7 @@ hr
             }
             .main-content .content-text h3
             {
-                font-size: 1.7em;
+                font-size: 1.3em;
                 font-weight:900;
             }
             .main-content
@@ -1088,6 +1095,8 @@ hr
             }
             .button
             {
+                right: 0.5em;
+                top :5.5em;
                 height: 25px;
                 width: 25px;
             }
@@ -1098,7 +1107,7 @@ hr
         {
             body
             {
-            font-size: 4.2px;
+            font-size: 4.5px;
             }
             #main
             {
@@ -1112,7 +1121,7 @@ hr
             }
             #main div h2
             {
-                font-size:4em;
+                font-size:3.5em;
                 padding-top:47vh;
             }
             #main div h4 
@@ -1121,14 +1130,14 @@ hr
             }
             .content-text
             {
-                margin-top:24.6em;
-                font-size: 1.8em;
+                margin-top:27em;
+                font-size: 1.6em;
                 min-height: 18.7em;
                 width: 80%; 
             }
             .main-content .content-text h3
             {
-                font-size: 1.7em;
+                font-size: 1.4em;
                 font-weight:900;
             }
             .main-content
@@ -1174,6 +1183,8 @@ hr
             }
             .button
             {
+                right: 0;
+                top: 5.3em;
                 height: 25px;
                 width: 25px;
             }
