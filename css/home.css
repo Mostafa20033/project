@@ -512,6 +512,9 @@ form button{
             
                 font-size: 12.2px;
               }
+              .color{
+                  min-height: auto;
+              }
               .navo a{
                   font-size: 1em;
                   padding-left: 0.7em;
