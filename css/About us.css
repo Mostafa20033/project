@@ -65,6 +65,7 @@ audio { display:none;}
     justify-content: space-around;
     /* background-color: bisque; */
     margin: 20px;
+    margin-bottom:0;
 }
 .card
 {
