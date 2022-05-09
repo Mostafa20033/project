@@ -36,18 +36,18 @@ body{
  .color{
     background-color: rgb(0, 0, 0, 0.85);
     width: 100%;
-    height: 2670px;
+    min-height: 2670px;
 } 
 .navo {
     background-color: rgb(0, 0, 0, 0.95);
     width: 100%;
     z-index: 999;
     position: sticky;
-    top: 0;
     padding: 17px 300px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    top: 0;
     margin-top: -17px;
 }
 .navo a{
@@ -74,6 +74,18 @@ body{
     text-align: center;
     font-size: 35px;
     font-family: playfair display roman;
+}
+.about1
+{
+    color: rgb(255, 255, 255);
+    position: relative;
+    right: 0px;
+    bottom: 250px;
+    padding-bottom:30px ;
+    text-align: center;
+    font-size: 35px;
+    font-family: playfair display roman;
+
 }
 .pl{
     color: white;
@@ -216,10 +228,7 @@ form button{
       .navo{
         margin-top: -32px;
       }
-      .ser{
-          right: 0;
-         
-      }
+      
       .ser2{
          padding-bottom: 0;
          font-size: 2.2em;
@@ -253,7 +262,7 @@ form button{
       }
       video{
           width:32em;
-          left: 320px;
+          left: 26%;
       }
       header{
        padding: 0.5em 1em;
@@ -269,7 +278,7 @@ form button{
         width: 300px;
         position: relative;
         bottom: 200px;
-        left: 420px;
+        left: 30%;
     }
       .footer{
           margin-top: 2em;
@@ -284,6 +293,9 @@ form button{
         position: relative;
         bottom: 12em;
     }
+    .sumbit{
+        left:  32%;
+    }
 
 
 }
@@ -297,7 +309,7 @@ form button{
           }
           .navo a{
               font-size: 1em;
-              padding-left: 1.8em;
+              padding-left: 1em;
           }
           .ser2{
              padding-bottom: 0;
@@ -412,18 +424,85 @@ form button{
                   margin-left: 0;
               }
               video{
-                  width:28em;
+                  width:60%;
+                  left: 17%;
               }
               header{
                padding: 0.5em 1em;
+               padding-bottom: 0.8em;
+               min-height: 2em;
               }
+              .ser{
+                color: rgb(255, 255, 255);
+                position: relative;
+                right: 0;
+                left: -5%;
+                bottom: 250px;
+                padding-bottom:30px ;
+                text-align: center;
+                font-size: 30px;
+                font-family: playfair display roman;
+            }
+              form input{
+                background-color: rgb(148, 142, 142);
+                color: white;
+                padding: 1em;
+                margin-bottom: 2em;
+                border: none;
+                border-radius: 5000px;
+                font-family: open sans;
+                width: 150px;
+                position: relative;
+                bottom: 200px;
+                left: 25%;
+
+            }
+            form button
+            {
+                background-color: rgb(148, 142, 142);
+                color: rgb(0, 0, 0);
+                font-size: 15px;
+                padding: 1em;
+                margin-bottom: 2em;
+                border: none;
+                border-radius: 5000px;
+                font-family: open sans;
+                width: 150px;
+                position: relative;
+                bottom: 200px;
+                left: 17em;
+            }
+             .sumbit{
+                position: relative;
+                left: 25%;
+                width: 20em;
+                background-color: #ffffff;
+            }
               .footer{
                   margin-top: 7em;
               }
+              .navo 
+            {
+                background-color: rgb(0, 0, 0, 0.95);
+                width: 100%;
+                z-index: 999;
+                position: sticky;
+                top: 0;
+                padding: 17px 0;
+                padding-left: 0;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                margin-top: -4%;
+            }
+            .navo a{
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                font-size: 15px;
+                font-family: playfair display roman;
+                padding-left: 0;
+            }
                
-         
-            
-           
      
         }
 
