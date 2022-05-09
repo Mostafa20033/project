@@ -70,6 +70,10 @@ img     {
           margin-right: auto;
           width: 40%;
         }
+.Fimage
+{
+            width:1270px;height:700px;
+}
 
         .navo {
                 background-color: rgb(0, 0, 0, 0.95);
