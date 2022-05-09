@@ -178,7 +178,7 @@ img{
     justify-content: space-around;
     margin-bottom: 0;
     text-align: center;
-    min-height: 100vh;
+    min-height: 120vh;
     
 }
 .divum div{
@@ -202,7 +202,7 @@ img{
     flex-flow: wrap;
     justify-content: space-around;
     margin-bottom: 0;
-    min-height: 100vh;
+    min-height: 120vh;
 }
 .divum2 div{
     background-color: #0b345a;
@@ -233,7 +233,7 @@ img{
     justify-content: space-around;
     margin-bottom: 0;
     text-align: center;
-    min-height: 100vh;
+    min-height: 120vh;
     
 }
 .divum3 div{
