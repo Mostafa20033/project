@@ -110,6 +110,14 @@ img:hover {
     font-size: 15px;
     font-family: playfair display roman;
 }
+@media screen and (max-width:1920px)
+{
+    .navo a 
+    {
+
+        font-size: 30px;
+    }
+}
 @media screen and (max-width:1023px){
     .th1{
         font-size: 60px;
