@@ -1,5 +1,5 @@
-body{ margin-top: 0; font-family: arial,sans-serif; }
-div {
+body{ margin-top: 0; margin-left: 0; font-family: arial,sans-serif; }
+.relative{
   background-color: lightyellow;
   width: 500px;
   border: 15px solid red;
@@ -14,11 +14,15 @@ div.relative {
 .img {
   float: right;
   width:500px;
-  height:400px;
+  height:355px;
 }
 h3 { 
   text-shadow : 2px 2px red ;
   font-size:40px;
+}
+#m5
+{
+  width:100%;
 }
 h2 {
   font-size: 60px;
@@ -51,8 +55,6 @@ a:active{
   display: flex;
   justify-content: space-around;
   align-items: center;
-
-
   border: none;
   padding: auto;
   margin: auto;
@@ -63,4 +65,114 @@ a:active{
   color: rgb(255, 255, 255);
   font-size: 15px;
   font-family: playfair display roman;
+}
+.clear
+{
+  clear: auto;
+}
+@media screen and (min-width:1281px) and (max-width:1920px)
+{
+  .navo a
+  {
+    font-size: 30px;
+  }
+  .img {
+    margin-right: 30px;
+    float: right;
+    width:700px;
+    min-height:410px;
+  }
+  div.relative {
+    position: relative;
+    left:10px;
+    top:0px;
+    font-size: 22px;
+    width: 35%;
+  }
+  h3{
+    margin-bottom: 0;
+    margin-left: 30px;
+  }
+  #m5{
+    width: 100%;
+  }
+  .top
+  {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width:415px) and (max-width:1280px)
+{
+  .navo a
+  {
+    font-size: 20px;
+  }
+  .img {
+    margin-right: 30px;
+    float: right;
+    width:500px;
+    min-height:250px;
+  }
+  div.relative {
+    position: relative;
+    left:10px;
+    top:0;
+    font-size: 17px;
+  }
+  h3{
+    margin-bottom: 40px;
+    margin-left: 30px;
+  }
+  #m5{
+    width: 100%;
+  }
+}
+@media screen and (min-width:0px) and (max-width:414px)
+{
+  .navo a
+  {
+    font-size: 12px;
+  }
+  .img {
+    float: none;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-left: 17%;
+    width:70%;
+    height:200px;
+    margin-bottom: 10px;
+  }
+  .top{
+    font-size: 15px;
+    text-align: center;
+  }
+  div.relative {
+    position: relative;
+    left:40px;
+    top:0;
+    font-size: 10px;
+    width: 70%;
+    padding: 10px;
+    min-height: 150px;
+    margin: 0;
+    float: left;
+  }
+  h3{
+    margin-bottom: 40px;
+    margin-left: 0px;
+    text-align: center;
+    font-size: 20px;
+  }
+  h2{
+    text-align: center;
+    font-size: 35px;
+  }
+  #m5{
+    width: 100%;
+  }
+  .collecter{
+    min-height: 50vh;
+    width: 100%;
+  }
 }
