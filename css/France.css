@@ -1,36 +1,33 @@
-.navo {
-    background-color: rgb(0, 0, 0, 0.95);
-    width: 100%;
-    z-index: 999;
-    position: sticky;
-    bottom: 10px;
-    top: 0;
-    padding: 17px 0px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-   
+body
+{
+    margin: 0;
+    background-color:#fff4f4 ;
 }
-.navo a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 15px;
-    font-family: playfair display roman;
-}
-header{
+header
+{
     background-color: #f0f0f0;
     width: 100%;
     position: fixed;
     padding: 2px 2px;
+    padding-top: 0;
 }
 
-h1{
+h1
+{
     color: #1d1d61;
-    
+    padding-left: 10px;
+}
+img{
+    margin-left: 70px;
 }
 .intro{
     padding: 20px 10px 10px 10px;
     margin: 20px 10px 10px 10px;
+}
+.uli a{
+    text-decoration: none;
+    color: #1d1d61;
+    font-weight: 700;
 }
 .paris{
     padding: 10px;
@@ -52,8 +49,9 @@ h3{
 }
 .uli{
     padding: 40px 10px 10px 10px;
-    margin: 40px 10px 10px 10px;
+    margin: 30px 10px 10px 10px;
 }
+
 .arc{
     padding: 10px;
     margin: 10px;
@@ -69,6 +67,341 @@ h3{
 .button{
     padding-left: 200px;
     margin-left: 200px;
+}
+table{
+    width: 100%;
+    border: 1px solid #1d1d61;
+    border-spacing: 0px;
+    
+}
+table td{
+    padding: 10px;
+    background-color: #EEE;
+    border: 1px solid #bfbfd3;
+    
+}
+caption{
+    font-weight: bold;
+}
+.t{
+    font-weight: bold;
+}
+@media screen and (max-width:1920px)
+{
+    img
+    {
+        margin-left: 70px;
+    }
+    header
+{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    padding: 2px 2px;
+    padding-top: 0;
+}
+
+h1
+{
+    color: #1d1d61;
+    padding-left: 10px;
+    font-size: 55px;
+}
+img{
+    margin-left: 240px;
+    width: 50em;
+}
+.intro{
+    padding: 20px 10px 10px 10px;
+    margin: 20px 10px 10px 10px;
+}
+.intro p,.intro h4{
+    font-size: 30px;
+
+}
+.uli a{
+    text-decoration: none;
+    color: #1d1d61;
+    font-weight: 700;
+    font-size: 35px;
+}
+.paris{
+    padding: 10px;
+    margin: 10px;
+}
+.paris p , .paris h4{
+    font-size: 30px;
+
+}
+.vidd{
+    padding: 10px 150px;
+    margin: 10px 150px;
+    width: 20em;
+}
+.vidd h4 , .vidd p{
+    font-size: 30px;
+}
+video{
+    width: 50em;
+
+}
+.louv{
+    padding: 10px;
+    margin: 10px;
+}
+.louv p ,.louv h4{
+    font-size: 30px;
+
+}
+h4{
+    color: #1d1d61;
+}
+h3{
+    color: #1d1d61;
+    font-size: 30px;
+
+}
+b{
+    font-size: 20px;
+
+}
+.uli{
+    padding: 40px 10px 10px 10px;
+    margin: 30px 10px 10px 10px;
+}
+
+.arc{
+    padding: 10px;
+    margin: 10px;
+}
+.arc p , .arc h4{
+    font-size: 30px;
+
+}
+.orsay{
+    padding: 10px;
+    margin: 10px;
+}
+.orsay h4 ,.orsay p {
+    font-size: 30px;
+
+}
+.garnier{
+    padding: 10px;
+    margin: 10px;
+}
+.garnier h4 , .garnier p{
+    font-size: 30px;
+
+}
+.button{
+    padding-left: 200px;
+    margin-left: 200px;
+    font-size: 25px;
+}
+button{
+    font-size: 30px;
+}
+table{
+    width: 100%;
+    border: 1px solid #1d1d61;
+    border-spacing: 0px;
+    
+}
+table td{
+    padding: 10px;
+    background-color: #EEE;
+    border: 1px solid #bfbfd3;
+    
+}
+caption{
+    font-weight: bold;
+}
+.t{
+    font-weight: bold;
+}
+figcaption{
+    margin-left: 14%;
+    font-size: 25px;
+}
+}
+@media screen and (max-width:1280px)
+{
+    img
+    {
+        margin-left: 70px;
+    }
+    header
+{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    padding: 2px 2px;
+    padding-top: 0;
+}
+
+h1
+{
+    color: #1d1d61;
+    padding-left: 40px;
+    font-size: 45px;
+}
+img{
+    margin-left: 40px;
+    width: 45em;
+}
+.intro{
+    padding: 20px 10px 10px 10px;
+    margin: 20px 10px 10px 10px;
+}
+.intro p,.intro h4{
+    font-size: 20px;
+
+}
+.uli a{
+    text-decoration: none;
+    color: #1d1d61;
+    font-weight: 700;
+    font-size: 25px;
+}
+.paris{
+    padding: 10px;
+    margin: 10px;
+}
+.paris p , .paris h4{
+    font-size: 20px;
+
+}
+.vidd{
+    padding: 10px 50px;
+    margin: 10px 200px;
+    width: 20em;
+}
+.vidd h4 , .vidd p{
+    font-size: 20px;
+}
+video{
+    width: 45em;
+
+}
+.louv{
+    padding: 10px;
+    margin: 10px;
+}
+.louv p ,.louv h4{
+    font-size: 20px;
+
+}
+h4{
+    color: #1d1d61;
+}
+h3{
+    color: #1d1d61;
+    font-size: 30px;
+
+}
+b{
+    font-size: 20px;
+
+}
+.uli{
+    padding: 40px 10px 10px 10px;
+    margin: 30px 10px 10px 10px;
+}
+
+.arc{
+    padding: 10px;
+    margin: 10px;
+}
+.arc p , .arc h4{
+    font-size: 20px;
+
+}
+.orsay{
+    padding: 10px;
+    margin: 10px;
+}
+.orsay h4 ,.orsay p {
+    font-size: 20px;
+
+}
+.garnier{
+    padding: 10px;
+    margin: 10px;
+}
+.garnier h4 , .garnier p{
+    font-size: 20px;
+
+}
+.button{
+    padding-left: 200px;
+    margin-left: 300px;
+    font-size: 25px;
+}
+button{
+    font-size: 20px;
+}
+table{
+    width: 100%;
+    border: 1px solid #1d1d61;
+    border-spacing: 0px;
+    
+}
+table td{
+    padding: 10px;
+    background-color: #EEE;
+    border: 1px solid #bfbfd3;
+    
+}
+caption{
+    font-weight: bold;
+}
+.t{
+    font-weight: bold;
+}
+figcaption{
+    margin-left: 5%;
+    font-size: 25px;
+}
+}
+@media screen and (max-width:768px)
+{
+    .vidd{
+        padding: 0px 0px;
+        margin: 10px 0px;
+        
+        
+    }
+    video{
+        width: 70%;
+        margin-left: 3em;
+        
+    }
+}
+@media screen and (max-width:414px)
+{
+    
+    .button{
+        padding-left: 40px;
+        margin-left: 0;
+    }
+    img{
+        width: 90%;
+        height: 50%;
+    }
+    .vidd{
+        padding: 0px 0px;
+        margin: 10px 0px;
+        
+        
+    }
+    video{
+        width: 70%;
+        margin-left: 3em;
+        
+    }
+
+    
 }
 
 
