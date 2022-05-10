@@ -109,6 +109,9 @@ caption{
 }
 @media screen and (max-width:1920px)
 {
+    .navo a {
+        font-size: 20px;
+    }
     img
     {
         margin-left: 70px;
@@ -127,6 +130,11 @@ h1
     color: #1d1d61;
     padding-left: 10px;
     font-size: 55px;
+}
+h3{
+    color: #1d1d61;
+    font-size: 30px;
+
 }
 img{
     margin-left: 240px;
@@ -150,7 +158,13 @@ img{
     padding: 10px;
     margin: 10px;
 }
-.paris p , .paris h4{
+.paris h3{
+    font-size: 40px;
+}
+.paris h4{
+    font-size: 35px;
+}
+.paris p {
     font-size: 30px;
 
 }
@@ -170,18 +184,18 @@ video{
     padding: 10px;
     margin: 10px;
 }
-.louv p ,.louv h4{
+.louv h4
+{
+    font-size: 35px;
+}
+.louv p {
     font-size: 30px;
 
 }
 h4{
     color: #1d1d61;
 }
-h3{
-    color: #1d1d61;
-    font-size: 30px;
 
-}
 b{
     font-size: 20px;
 
@@ -195,7 +209,11 @@ b{
     padding: 10px;
     margin: 10px;
 }
-.arc p , .arc h4{
+.arc h4
+{
+    font-size: 35px;
+}
+.arc p {
     font-size: 30px;
 
 }
@@ -203,7 +221,11 @@ b{
     padding: 10px;
     margin: 10px;
 }
-.orsay h4 ,.orsay p {
+.orsay h4
+{
+    font-size: 35px;
+}
+.orsay p {
     font-size: 30px;
 
 }
@@ -211,7 +233,11 @@ b{
     padding: 10px;
     margin: 10px;
 }
-.garnier h4 , .garnier p{
+.garnier h4 
+{
+    font-size: 35px;
+}
+.garnier p{
     font-size: 30px;
 
 }
@@ -229,6 +255,9 @@ table{
     border-spacing: 0px;
     
 }
+table caption{
+    font-size: 40px;
+}
 table td{
     padding: 10px;
     background-color: #EEE;
@@ -240,6 +269,7 @@ caption{
 }
 .t{
     font-weight: bold;
+    font-size: 20px;
 }
 figcaption{
     margin-left: 14%;
@@ -289,7 +319,11 @@ img{
     padding: 10px;
     margin: 10px;
 }
-.paris p , .paris h4{
+.paris h4
+{
+    font-size: 25px;
+}
+.paris p  {
     font-size: 20px;
 
 }
@@ -298,7 +332,10 @@ img{
     margin: 10px 200px;
     width: 20em;
 }
-.vidd h4 , .vidd p{
+.vidd p{
+    font-size: 25px;
+}
+.vidd h4 {
     font-size: 20px;
 }
 video{
@@ -309,7 +346,11 @@ video{
     padding: 10px;
     margin: 10px;
 }
-.louv p ,.louv h4{
+.louv h4
+{
+    font-size: 25px;
+}
+.louv p {
     font-size: 20px;
 
 }
@@ -327,14 +368,18 @@ b{
 }
 .uli{
     padding: 40px 10px 10px 10px;
-    margin: 30px 10px 10px 10px;
+    margin: 60px 10px 10px 10px;
 }
 
 .arc{
     padding: 10px;
     margin: 10px;
 }
-.arc p , .arc h4{
+.arc h4
+{
+    font-size: 25px;
+}
+.arc p {
     font-size: 20px;
 
 }
@@ -342,15 +387,23 @@ b{
     padding: 10px;
     margin: 10px;
 }
-.orsay h4 ,.orsay p {
+.orsay p 
+{
     font-size: 20px;
+}
+.orsay h4 {
+    font-size: 25px;
 
 }
 .garnier{
     padding: 10px;
     margin: 10px;
 }
-.garnier h4 , .garnier p{
+.garnier h4 
+{
+    font-size: 25px;
+}
+.garnier p{
     font-size: 20px;
 
 }
