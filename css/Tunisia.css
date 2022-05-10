@@ -140,10 +140,10 @@ img:hover {
 }
 @media screen and (max-width:1920px)
 {
-    .nav a 
+    .navo a 
     {
 
-        font-size: 35px;
+        font-size: 30px;
     }
 }
 @media screen and (max-width:1023px){
