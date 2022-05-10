@@ -11,7 +11,7 @@ h1
         color: #ab0000;
         align-items: center;
         font-size: 90px;
-        background: url(WhatsApp\ Image\ 2022-05-09\ at\ 4.13.52\ PM\ \(1\).jpeg) no-repeat;
+        background: url("../media/WhatsApp\ Image\ 2022-05-09\ at\ 4.13.52\ PM\ \(1\).jpeg") no-repeat;
         background-attachment: fixed;
         background-size:cover;
         background-position:center;  
