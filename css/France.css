@@ -3,6 +3,27 @@ body
     margin: 0;
     background-color:#fff4f4 ;
 }
+.navo
+{
+    background-color: rgb(0, 0, 0, 0.95);
+    width: 100%;
+    z-index: 999;
+    position: sticky;
+    bottom: 10px;
+    top: 0;
+    padding: 17px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.navo a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: playfair display roman;
+}
 header
 {
     background-color: #f0f0f0;
