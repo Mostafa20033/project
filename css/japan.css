@@ -15,6 +15,15 @@ body
     display: flex;
     justify-content: center;
 }
+.S
+{
+font-size: 30px;
+}
+.E
+{
+    font-size: 15px;
+
+}
 h1
 {
     color: rgb(58, 57, 62);
@@ -95,22 +104,413 @@ h4
     font-size: 2em;
     margin-bottom: 10px;
 }
-.navo {
-    background-color: rgb(0, 0, 0, 0.95);
-    width: 100%;
-    z-index: 999;
-    position: sticky;
-    bottom: 10px;
-    top: 0;
-    padding: 17px 0px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.t{
+    font-size: 15px;
+}
+@media screen and (min-width:1920px)
+{
+    #Introduction{
+        text-align: left;
+        font-size: 70px;
+    }
+    .t{
+        font-size: 25px;
+    }
+    
+
+
+.S
+{
+font-size: 26px;
+}
+.E
+{
+    font-size: 20px;
+
+}
+h1
+{
+    color: rgb(58, 57, 62);
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+   
+}   
+
+
+.card{
+    background-color: aliceblue;
+    box-shadow: 5px 5px rgba(1 1 1 /20%);
+    min-height: 15em;
+    width: 38em;
+    border-radius: 10px;
+    float:left;
+    margin-bottom: 100px;
+    margin-right: 6px;
+    margin-left: 6px;
+    padding: 0 5px;
    
 }
-.navo a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
+.image img{
+    width: 100%;
+    height: 100%;
+}
+.card2{
+    background-color: aliceblue;
+    box-shadow: 5px 5px rgba(1 1 1 /20%);
+    min-height: 15em;
+    width: 38em;
+    border-radius: 10px;
+    float: left;
+   margin-bottom: 100px;
+    padding: 0 5px;
+    margin-left: 6px;
+    margin-right: 6px;
+    
+}
+.cardinfo
+{
+    box-shadow: none;
+    margin-left: 7px;
+}
+body
+{
+    background-color: rgb(200, 238, 250);
+}
+ th, td
+{
+    border:1px solid black;
+    width: 50%; 
+    margin: 5px;
+}
+table
+{
+    width: 130%;
+   min-height: 80px;
+   font-size: 40px;
+}
+
+td
+{
+    margin: 5px;
+ }
+h4
+{
+    font-size: 30px;
+}
+
+.foo 
+{
+    width: 50%;
+    display: inline-block;
+    margin: 5px;
+    margin-left: 0;
+    text-align: center;
+   
+}
+.foo p
+{
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    font-size: 60px;
+}
+    
+}
+@media screen and (max-width:1280px)
+{
+
+.main
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../media/gfdsgj.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+}
+.S
+{
+font-size: 30px;
+}
+.E
+{
     font-size: 15px;
-    font-family: playfair display roman;
+
+}
+h1
+{
+    color: rgb(58, 57, 62);
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+   
+}   
+
+
+.card{
+    background-color: aliceblue;
+    box-shadow: 5px 5px rgba(1 1 1 /20%);
+    min-height: 19em;
+    width: 40em;
+    border-radius: 10px;
+    float:right;
+    margin-bottom: 50px;
+    margin-right: 6px;
+   
+}
+.image img{
+    width: 100%;
+}
+.card2{
+    background-color: aliceblue;
+    box-shadow: 5px 5px rgba(1 1 1 /20%);
+    min-height: 19em;
+    width: 44em;
+    border-radius: 10px;
+    float: left;
+   margin-bottom: 50px;
+    padding: 0 5px;
+    margin-left: 6px;
+    
+}
+.cardinfo
+{
+    box-shadow: none;
+    margin-left: 7px;
+}
+body
+{
+    background-color: rgb(200, 238, 250);
+}
+ th, td
+{
+    border:1px solid black;
+    width: 50%; 
+    margin: 5px;
+}
+table
+{
+    width: 100%;
+    
+   min-height: 80px;
+}
+
+ td
+ {
+    margin: 5px;
+ }
+h4
+{
+    font-size: 30px;
+}
+
+.foo 
+{
+    width: 50%;
+    display: inline-block;
+    margin: 5px;
+    margin-left: 40px;
+   
+}
+.foo p
+{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+    
+}
+@media screen and (max-width:768px)
+{
+    .main
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../media/gfdsgj.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+}
+.S
+{
+font-size: 30px;
+}
+.E
+{
+    font-size: 15px;
+
+}
+h1
+{
+    color: rgb(58, 57, 62);
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+   
+}   
+
+
+.card{
+    background-color: aliceblue;
+    box-shadow: 5px 5px rgba(1 1 1 /20%);
+    min-height: 19em;
+    width: 40em;
+    border-radius: 10px;
+    float:right;
+    margin-bottom: 50px;
+    margin-right: 6px;
+   
+}
+.image img{
+    width: 100%;
+}
+.card2{
+    background-color: aliceblue;
+    box-shadow: 5px 5px rgba(1 1 1 /20%);
+    min-height: 19em;
+    width: 44em;
+    border-radius: 10px;
+    float: left;
+   margin-bottom: 50px;
+    padding: 0 5px;
+    margin-left: 6px;
+    
+}
+.cardinfo
+{
+    box-shadow: none;
+    margin-left: 7px;
+}
+body
+{
+    background-color: rgb(200, 238, 250);
+}
+ th, td
+{
+    border:1px solid black;
+    width: 50%; 
+    margin: 5px;
+}
+table
+{
+    width: 100%;
+    
+   min-height: 80px;
+}
+
+ td
+ {
+    margin: 5px;
+ }
+h4
+{
+    font-size: 30px;
+}
+
+.foo 
+{
+    width: 80%;
+    display: inline-block;
+    margin: 5px;
+    margin-left: 40px;
+   
+}
+.foo p
+{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+}
+@media screen and (max-width:414px)
+{
+    #Introduction{
+        text-align: center;
+    }
+    .t{
+        text-align: center;
+        margin-bottom: 1em;
+    }
+    .card{
+        background-color: aliceblue;
+        box-shadow: 5px 5px rgba(1 1 1 /20%);
+        min-height: 6em;
+        width: 22em;
+        border-radius: 10px;
+        float:left;
+        margin-bottom: 50px;
+        margin-left: 15px;
+    }
+    .image img{
+        width: 100%;
+        height: 60%;
+    }
+    .card2{
+        background-color: aliceblue;
+        box-shadow: 5px 5px rgba(1 1 1 /20%);
+        min-height: 6em;
+        width: 22em;
+        border-radius: 10px;
+        float: left;
+       margin-bottom: 50px;
+        padding: 0 5px;
+        margin-left: 15px;
+        
+    }
+    .cardinfo
+    {
+        box-shadow: none;
+        margin-left: 7px;
+    }
+    .S
+{
+font-size: 20px;
+}
+.E
+{
+    font-size: 10px;
+
+}
+th, td
+{
+    border:1px solid black;
+    width: 70%; 
+    margin: 5px;
+    font-size: .7em;
+}
+table
+{
+    width: 100%;
+   min-height: 80px;
+}
+
+ td
+ {
+    margin: 5px;
+ }
+h4
+{
+    font-size: 30px;
+}
+
+.foo 
+{
+    width: 70%;
+    display: inline-block;
+    margin: 5px;
+    margin-left: 40px;
+   
+}
+.foo p
+{
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
 }
