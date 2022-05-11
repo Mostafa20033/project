@@ -16,6 +16,45 @@ body
     display: flex;
    justify-content: center;
 }
+.footer{
+    background-color: rgb(0, 0, 0, 0.95);
+    color: rgb(255, 255, 255);
+    padding:11px;
+    width: 100%;
+    margin-top: 250px;
+    margin-right: 20px;
+  }
+ 
+  .map
+  { margin-left: 100px;
+}
+
+.div_f1
+{
+    display: inline-block;
+    margin-right: 60px;
+    margin-left: 60px;
+    
+}
+
+.div_f2
+{
+    display: inline-block;
+}
+.Footer_title
+{
+    margin-left: 90px;
+}
+.div_f3
+{
+    display: inline-block;
+    margin-left: 300px;
+    
+}
+.div_f3 ::placeholder
+{
+    color: #000000;
+}
 h1
 {
     color: white;
@@ -119,6 +158,17 @@ img
 }
 @media screen and (max-width:1920px)
 {
+    .footer{
+        margin-top: 2em;
+    }
+    .div_f3{
+      width: 100%;
+      margin-left: 0;
+  }
+  .map{
+    margin-left: 0;
+    width: 20%;
+}
     h1
 {
     color: white;
@@ -176,6 +226,17 @@ h2{
 }
 @media screen and (max-width:1280px)
 {
+    .footer{
+        margin-top: 7em;
+    }
+    .div_f3{
+      width: 100%;
+      margin-left: 0;
+  }
+  .map{
+    margin-left: 0;
+    width: 100%;
+}
     .f
     {
         width: 100%;
@@ -258,6 +319,17 @@ h2{
 }
 @media screen and (max-width:414px)
 {
+    .footer{
+        margin-top: 7em;
+    }
+    .div_f3{
+      width: 100%;
+      margin-left: 0;
+  }
+  .map{
+    margin-left: 0;
+    width: 100%;
+}
     .f{
         width: 100%;
         min-height: 450px;
