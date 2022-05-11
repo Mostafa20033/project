@@ -145,6 +145,7 @@ p.name{
 {
     .footer{
         margin-top: 2em;
+        width: 98%;
     }
     .div_f3{
       width: 100%;
@@ -194,7 +195,21 @@ p.name{
 
     }
 }
- 
+ @media screen and (max-width:1280px)
+ {
+    .footer{
+        margin-top: 2em;
+        width: 98%;
+    }
+    .div_f3{
+      width: 100%;
+      margin-left: 0;
+  }
+  .map{
+    margin-left: 0;
+    width: 20%;
+}   
+ }
 @media screen and (max-width:1366px)
 {
    
