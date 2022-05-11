@@ -249,17 +249,11 @@ form button{
       .pl2{
         left:   0px;
       }
-      .map{
-          margin-left: 0;
-          width: 20%;
-      }
+      
       p iframe{
           width: 100%;
       }
-      .div_f3{
-          width: 100%;
-          margin-left: 0;
-      }
+     
       video{
           width:32em;
           left: 26%;
@@ -283,6 +277,14 @@ form button{
       .footer{
           margin-top: 2em;
       }
+      .div_f3{
+        width: 100%;
+        margin-left: 0;
+    }
+    .map{
+      margin-left: 0;
+      width: 20%;
+  }
       section input{
         padding: 1em;
         margin-bottom: 2em;
@@ -318,17 +320,11 @@ form button{
           .sumbit{
               width: 20em;
           }
-          .map{
-              margin-left: 0;
-              width: 100%;
-          }
+          
           p iframe{
               width: 100%;
           }
-          .div_f3{
-              width: 100%;
-              margin-left: 0;
-          }
+          
           video{
               width:32em;
           }
@@ -338,6 +334,14 @@ form button{
           .footer{
               margin-top: 7em;
           }
+          .div_f3{
+            width: 100%;
+            margin-left: 0;
+        }
+        .map{
+          margin-left: 0;
+          width: 100%;
+      }
           section input{
             padding: 1em;
             margin-bottom: 2em;
@@ -526,17 +530,11 @@ form button{
               .sumbit{
                   width: 20em;
               }
-              .map{
-                  margin-left: 0;
-                  width: 100%;
-              }
+             
               p iframe{
                   width: 100%;
               }
-              .div_f3{
-                  width: 100%;
-                  margin-left: 0;
-              }
+             
               video{
                   width:70%;
                   left: 16%;
@@ -547,6 +545,14 @@ form button{
               .footer{
                   margin-top: 7em;
               }
+              .div_f3{
+                width: 100%;
+                margin-left: 0;
+            }
+            .map{
+              margin-left: 0;
+              width: 100%;
+          }
               form input{
                 background-color: rgb(148, 142, 142);
                 color: white;
