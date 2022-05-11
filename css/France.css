@@ -474,6 +474,9 @@ figcaption{
         margin-left: 3em;
         
     }
+    .navo a{
+        font-size: 12px;
+    }
 
     
 }
