@@ -447,9 +447,9 @@
 	  
 	    }
 
-		.arabic
+	.arabic
         {
-            top:1em;
+            top:3.5em;
             right: 0;
             width: 3em;
             height: 3em;
@@ -457,7 +457,7 @@
 
 		.english
         {
-            top:4em;
+            top:7em;
             right: 0;
 			width: 3em;
             height: 3em;
@@ -465,19 +465,19 @@
 
 		.position .arabic
 		{
-			top:1em;
-            left: 0;
+			top:3.5em;
             width: 3em;
             height: 3em;
+			left: 0;
 
 		}
 
 		.position .english
 		{
-			top:4em;
-            left: 0;
+			top:7em;
 			width: 3em;
             height: 3em;
+			left: 0;
 		}
 	}
 	
