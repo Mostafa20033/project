@@ -25,7 +25,25 @@
     This site will provide you with information about recomended places to visit when you are in China.<br>
    <i class="material-icons" style="font-size:48px;color: #660000;">favorite</i> 
     have a good tour.
-   <i class="material-icons" style="font-size:48px;color: #660000;">favorite</i> 
+   <i class="material-icons" style="font-size:48px;color: #660000;">favorite</i>
+   <p id="demo"></p>
+   <button onclick="myfunction()">
+open me up
+   </button> 
+   <script>
+function myfunction(){
+let text;
+let person=prompt("please enter your name:","M");
+if(person==null||person=="")
+{
+  text="you cancelled";
+}
+else{
+  text="hello "+person +"!how are you today?";
+}
+document.getElementById('demo').innerHTML=text;
+}
+   </script>
    <h2> The tourist attractions in China: </h2>
   </div>
 
@@ -130,6 +148,25 @@
     <a href="https://en.wikipedia.org/wiki/Zhouzhuang" target="_blank"> zhouzhuang-wikipidia </a>
    </p>
    <img src="media/Zhouzhuang 5.jpg">  <hr>
+   <footer class="footer">
+            
+    <h2 class="Footer_title"> Tourism </h2> <hr color="black"> 
+    <div class="div_f1">
+    <ul class="ul_footer1">
+        <li>Contact No.: 01123262501</li> <br>
+        <li> Our Email: wmostafa452@gmail.com  </li> <br>
+        <li>Copyright Team  &copy;</li>
+    </ul>
+    </div>
+            <div class="div_f3">
+                <label>Get Our Latest Updates!</label> <br> <br>
+                <input type="email" placeholder="Enter your email here">  <input type="submit"><br> <br>
+                <input type="checkbox"> <label>By checking the box, you agree to recieving our emails.</label> <br>
+                
+            </div> <div class="map"><p> Our Location: <br> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1669999.9926293679!2d32.30401710464857!3d35.1636347338142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14de1767ca494d55%3A0x324c3c807fc4146e!2sCyprus!5e0!3m2!1sen!2seg!4v1640813202483!5m2!1sen!2seg" width="150" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p></div>
+           
+               
+            </footer>
  </body>
 </html>
    
