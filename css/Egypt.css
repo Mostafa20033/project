@@ -14,7 +14,7 @@ body{
     font-size: 60px;
     padding-left: 40%;
     align-items: center;
-    margin-left:0;
+    margin-left: 0;
 
 }
 .navo
@@ -102,8 +102,58 @@ p.name{
     font-size: 40px;
     text-align: center;
 }
+.footer{
+    background-color: rgb(0, 0, 0, 0.95);
+    color: rgb(255, 255, 255);
+    padding:11px;
+    width: 100%;
+    margin-top: 250px;
+    margin-right: 20px;
+  }
+ 
+  .map
+  { margin-left: 100px;
+}
+
+.div_f1
+{
+    display: inline-block;
+    margin-right: 60px;
+    margin-left: 60px;
+    
+}
+
+.div_f2
+{
+    display: inline-block;
+}
+.Footer_title
+{
+    margin-left: 90px;
+}
+.div_f3
+{
+    display: inline-block;
+    margin-left: 300px;
+    
+}
+.div_f3 ::placeholder
+{
+    color: #000000;
+}
 @media screen and (min-width:1920px)
 {
+    .footer{
+        margin-top: 2em;
+    }
+    .div_f3{
+      width: 100%;
+      margin-left: 0;
+  }
+  .map{
+    margin-left: 0;
+    width: 20%;
+}
     
     .x h1{
         font-size: 200px;
@@ -189,6 +239,53 @@ p.name{
 }
 @media screen and (max-width:414px)
 {
+    .divum3 div{
+        background-color: #0b345a;
+        color: rgb(255, 251, 20);
+        float: left;
+        width: 130px;
+        text-align: center;
+        padding: 30px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    .footer{
+        background-color: #0b345a;
+        color: rgb(255, 255, 255);
+        padding-top:11px;
+        padding-bottom: 0;
+        padding-right: 0;
+        padding-left: 0;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: -20px;
+        margin-left: 0;
+        margin-right: 0;
+      }
+      .map
+      {
+          margin-left: 10px;
+          margin-bottom: 0;
+    
+      }
+      .div_f1
+    {
+        display: inline-block;
+        margin-right: 0;
+        margin-left: -10px;
+        
+    }
+    
+    .Footer_title
+    {
+        margin-left: 10px;
+    }
+    .div_f3
+    {
+        display: inline-block;
+        margin-left: 10px;
+        
+    }
 .x{
     margin-left: 0;
     padding-left: 0;
