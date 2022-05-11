@@ -319,7 +319,6 @@
 			  width: 20%;
 		  }
 	  }
-/*
 	@media screen and (max-width:1280px)
 	{
 		.footer{
@@ -356,7 +355,7 @@
 
 		}
 	}
-*/
+
 	@media screen and (max-width:1024px)
 	{
 		 #title 
@@ -461,14 +460,16 @@
 	}
 		
 		body
-		{
+		{width: 100%;
 			font-size: 17px;
 		}
 		 #title 
 		{
 			text-align: left;
 			font-size: 5em;
+			width: 98%;
 			position: static;
+
 			
 		}
 		.position #title
@@ -477,7 +478,7 @@
 	}
 		#navbar #links
 		{
-			width:100%;
+			width:98%;
 			position: relative;
 			margin-top: 0;
 			min-height: 55vh;
@@ -498,8 +499,9 @@
 		font-family:sans-serif ;
 		font-size:1.8em ;
 		padding-top: 0.25em;
+		
+		padding-left: 0;
 		width: 100%;
-		padding-left: 0.3em;
 		text-align: center;
 	    }
 		.text
@@ -555,6 +557,9 @@
 			width: 3em;
             height: 3em;
 			left: 0;
+		}
+		.navo a{
+			font-size: 12px;
 		}
 	}
 	
