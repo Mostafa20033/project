@@ -216,6 +216,9 @@ h3{
 margin-left: 0;
 width: 100%;
 }
+.navo a{
+    font-size: 13px;
+}
 }
 @media screen and (max-width:414px)
 {
